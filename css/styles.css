@@ -106,11 +106,13 @@ ul {
   }
 
   .gallery-grid {
-    margin: 5px;
+    margin: 5px auto;
     border: 1px solid #ccc;
     background-color: #fff;
     margin-top: auto;
     width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .gallery-section h2 {
@@ -126,16 +128,10 @@ ul {
     font-family: Montserrat;
   }
 
-  .gallery-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .gallery-item img {
     width: 100%;
-    height: 50%;
+    height: 300px;
+    object-fit: cover;
     }
 
   .about-product {
@@ -246,14 +242,10 @@ ul {
     
       .text h2{
         font-size: 30px;
-        font-weight: 600;
-        margin-bottom: 10px;
       }
     
       .text p{
         font-size: 10px;
-        line-height: 25px;
-        letter-spacing: 1px;
       }
 
       .card {
@@ -261,11 +253,6 @@ ul {
         flex-direction:column;
         justify-content: center;
         align-items: center;
-      }
-
-      .container p {
-        font-family: Montserrat;
-        text-align:center;
       }
 
       .gallery-grid {
