@@ -288,6 +288,10 @@ ul {
         flex-direction: column;
       }
 
+      .about img {
+        width: 40%;
+      }
+
       .text{
         width: 800px;
       }
@@ -299,7 +303,7 @@ ul {
       }
     
       .text p{
-        font-size: 10px;
+        font-size: 12px;
         line-height: 25px;
         letter-spacing: 2px;
       }
