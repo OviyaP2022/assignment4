@@ -332,7 +332,15 @@ ul {
     }
     
 
-    @media (max-width:720px) {
+    @media screen and (max-width:720px) {
+
+      .card {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+      }
+
       .footer{
         text-align:left;
         padding:5%;
